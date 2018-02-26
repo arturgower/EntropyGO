@@ -1,0 +1,23 @@
+\newcommand{\be}{\begin{equation}}
+\newcommand{\en}{\end{equation}}
+
+
+\def\bga#1\ega{\begin{gather}#1\end{gather}} % suggested in technote.tex
+\def\bgas#1\egas{\begin{gather*}#1\end{gather*}}
+
+\def\bal#1\eal{\begin{align}#1\end{align}} % suggested in technote.tex
+\def\bals#1\eals{\begin{align*}#1\end{align*}}
+
+\renewcommand{\vec}[1]{\boldsymbol{#1}}
+
+%\newlength{\scalemath}
+%\def\scalemath{0.76}
+
+\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
+\newcommand{\fhead}{\mathcal C}%
+\def \f#1{\fhead \left(#1\right)}%
+\def \I#1{\mathcal I \left(#1\right)}%
+
+\newcommand{\p}{\mathcal P}%
+\def \bm#1{\mbox{\boldmath{$#1$}}}   % this is used to write boldface Greek
+\def \ini#1{\overset{\circ}{ #1}}
