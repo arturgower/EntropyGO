@@ -40,6 +40,7 @@ To draw the balance of influence between white and black
 DrawTentacles[BoardInfluence, 3]
 ```
 ![influence over whole board](images/tentacles.svg)
+The size of the red (blue) balls indicate the influence of the white (black) stone. 
 
 ## Big random example
 ```
