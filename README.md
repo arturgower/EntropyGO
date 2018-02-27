@@ -2,7 +2,7 @@
 
 # EntropyGO
 We use the concept of entropy maximisation to calculate the influence on a GO board. We provide a Mathematica code and a 
-[document](doc/EntropyGO.pdf) explaining the code. We are able to arrive at a simple formula, which can be used to write efficient algorithms. To calculate the influence of, say, the white stones on an empty space V, we calculate how many, how long, and how strong are the paths that link V to the other white stones.
+[document](doc/EntropyGO.pdf) explaining the code. We are able to arrive at a simple formula, which can be used to write efficient algorithms. To calculate the influence of, say, the white stones on an empty space V, we calculate how many, how long, and how strong are the paths that link V to the other white stones. See [doc/README.md](doc/README.md) for some illustrating videos. 
 
 It has been suggested that [maximising entropy](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.168702)
 is an "intelligent" move in any game. See [Link between Intelligence and Entropy](https://physics.aps.org/articles/v6/46)
