@@ -31,15 +31,17 @@ options = {"boardPaths" -> True};
 {boardInf, boardPaths} = BoardInfluenceFromGroup[Groups[1][[1]], 1, options];
 (*use Group[-1] to access black groups*)
 
-DrawTentacles[boardInf, 3] (*3 inversely specifies how thick the tentacles should be. *)
+influenceSize = 3
+DrawTentacles[boardInf, influenceSize] (*influenceSize inversely specifies how big influence balls should be. *)
 ```
 ![influence from one group](images/group_tentacles.svg)
 
 To draw the balance of influence between white and black 
 ```
-DrawTentacles[BoardInfluence, 3]
+DrawTentacles[BoardInfluence, influenceSize]
 ```
 ![influence over whole board](images/tentacles.svg)
+
 The size of the red (blue) balls indicate the influence of the white (black) stone. 
 
 ## Big random example
